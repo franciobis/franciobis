@@ -432,7 +432,7 @@ header .navbar .navbar-menu li a {
   h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
   }
-  .navbar-menu {
+  header .navbar .navbar-menu {
     display: none;
     flex-direction: column;
     background-color: #333;
@@ -441,11 +441,11 @@ header .navbar .navbar-menu li a {
     left: 0;
     width: 100%;
   }
-  .navbar-menu.active {
-    display: flex;
-  }
-  .navbar-menu li {
+  header .navbar .navbar-menu li {
     margin: 5px 0;
+  }
+  header .navbar .navbar-menu.active {
+    display: flex;
   }
   .skillf, .skillb {
     width: 90%;
